@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+body {
+  background-color: #F9FAFB;
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.header-box {
+  background-color: #ffffff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 64px;
+  display: flex;
+  border: 1px solid #D1D5DB;
+  justify-content: flex-end;
+}
+
+.header-helper {
+  float: right;
+  display: flex;
+}
+
+.skip {
+  color: rgba(0, 0, 0, 0);
+}
+
+.lang {
+  margin: auto;
+  text-align: center;
+  color: #4B5563;
+  border: 1px solid #D1D5DB;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.lang-text {
+  margin-top: 20%;
+}
+
+.avatar {
+  margin: auto;
+  width: 32px;
+  height: 32px;
+  background-image: url('https://s3-alpha-sig.figma.com/img/0f9b/81fa/21460d39cd98ccca0d3fa906d5718aa3?Expires=1732492800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=BUccAMNx71ez-Vg4~KgrcIj1juF9bWRvK4j8LwnvOl7QVIjzYGX0YRHLuc1wpZOvVRC7TtV6zRfxt27IMhnQTqUB7CxbVnWh5uBny1CBYpWPlwgPszFPmW9vvAr~b~nKv9w9Z7KaHw6sPpp2jeKPOHti3L2zCSD6mQoqcL14iRxOtjkrkxBwxLPn5rYKGVtKognvFi~1KmbaaVXCzZapShqUXoabIP~TIwOE4jctLyMDM1Huh9go54LSVQLDSPzP9MOWRVH80QTGEctcL2QBY1AWrB7fbbQLpnoQwXvn~Hi4fYHpDtL9Bow-825uR6kdTdeAzZgLXxqykORURlEKDA__');
+  background-size: cover;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.contents {
+  margin-left: 7.5vw;
+  margin-top: 64px;
+}
+
+.Sidebar {
+  top: 0;
+  left: 0;
+  position: fixed;
+  z-index: 2;
+  height: 100vh;
+  width: 7.5vw;
+  background-color: #1B2852;
+}
+
+.Main {
+  justify-content: center;
+  align-items: center;
+}
+
+.main-box-helper {
+  margin: auto;
+}
+
+.main-box {
+  margin-top: 10vh;
+  margin-left: 5vh;
+  padding-bottom: 5vh;
+  width: 87vw;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  background-color: #ffffff;
+}
+
+.main-text {
+  padding-top: 3vh;
+  text-align: center;
+  color: #111827;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.catalog {
+  margin-top: 10vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.plus-helper {
+  margin-right: 5vw;
+  justify-content: flex-end;
+}
+
+.plus {
+  float: right;
+  background-color: #1D4ED8;
+  width: 3vw;
+  height: 3vw;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.plus-text {
+  text-align: center;
+  margin: auto;
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.catalog-item {
+  margin-top: 5vh;
+  border-radius: 6px;
+  height: 10vh;
+  width: 83vw;
+  margin-left: 2vw;
+  border: Mixed solid #A6AAB369;
+  box-shadow: 0px 5px 15px -3px #0000001A;
+  box-shadow: 0px 4px 6px -2px #0000000D;
+  background-color: #ffffff;
+  display: flex;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+
+.catalog-item-text {
+  width: auto;
+  max-width: 70%;
+  font-size: 16px;
+  font-weight: 600;
+  margin-left: 3vw;
+  margin-top: auto;
+  margin-bottom: auto;
+  color: #374151;
+}
+
+.catalog-item-no-active {
+  margin-left: 2vw;
+  margin-top: auto;
+  margin-bottom: auto;
+  text-align: center;
+  font-weight: 500;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 100px;
+  height: 3vh;
+  color: #991B1B;
+  background: #FEE2E2;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.catalog-item-price {
+  text-align: right;
+  margin-left: auto;
+  font-weight: 400;
+  font-size: 14px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.catalog-item-box-control {
+  border-radius: 0 6px 6px 0;
+  margin-left: 3vw;
+  width: 8vw;
+  height: 100%;
+  display: flex;
+  background-color: #F9FAFB;
+  border: 0.2px solid #A6AAB369;
+  -webkit-border-radius: 0 6px 6px 0;
+  -moz-border-radius: 0 6px 6px 0;
+  -ms-border-radius: 0 6px 6px 0;
+  -o-border-radius: 0 6px 6px 0;
+}
+
+.catalog-item-box-control-helper {
+  margin: auto;
+}
+
+.catalog-item-box-item {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 1.5vw;
+}
+
+.pencil {
+  width: 25px;
+  height: 25px;
+  background-image: url(./Pencil.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.trash {
+  width: 25px;
+  height: 25px;
+  background-image: url(./Trash.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
